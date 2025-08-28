@@ -12,9 +12,15 @@ img {
 }
 
 img:hover {
-    /* transform: scale(1.10); */
+    transform: scale(1.10);
     /* transform: rotate(-45deg); */
-    transform:translateY(-20px); /* Move 20px para cima */
+  /*  transform:translateY(-20px);  Move 20px para cima */
     border-color: blue;
     opacity: 0.3; /* Transparência */
     }
+
+.img-link {
+    width: 150px;
+    height: 50px;
+    object-fit: contain; /* Mantém a proporção da imagem */
+}
